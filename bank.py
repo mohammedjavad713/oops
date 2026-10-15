@@ -33,8 +33,8 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == "1":
-        amount = float(input("Enter amount to deposit: "))
-        account.deposit(amount)
+        a = float(input("Enter amount to deposit: "))
+        account.deposit(a)
 
     elif choice == "2":
         amount = float(input("Enter amount to withdraw: "))
